@@ -5,7 +5,7 @@ class SpinningWheel(Scene):
 
         wheelintor = self.create_wheel(sectors=4,ora=1)
         #The Intro
-        nit = Text("In Mathematics nothing is Impossiable, just extremly unlikly:)",font_size=14).move_to(UP)
+        nit = Text("In Mathematics nothing is Impossiable, just extremly unlikly.",font_size=14).move_to(UP)
         wheelintor.next_to(nit, DOWN)
 
         self.play(
